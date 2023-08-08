@@ -1,0 +1,31 @@
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\appsettings.json
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\CDR project.staticwebassets.runtime.json
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\CDR project.exe
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\CDR project.deps.json
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\CDR project.runtimeconfig.json
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\CDR project.dll
+C:\Users\23164696\source\repos\CDR project\CDR project\bin\Debug\net6.0\CDR project.pdb
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.csproj.AssemblyReference.cache
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.AssemblyInfoInputs.cache
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.AssemblyInfo.cs
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.csproj.CoreCompileInputs.cache
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.RazorAssemblyInfo.cache
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.RazorAssemblyInfo.cs
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\staticwebassets\msbuild.CDR project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\staticwebassets\msbuild.build.CDR project.props
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CDR project.props
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CDR project.props
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\scopedcss\bundle\CDR project.styles.css
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\scopedcss\projectbundle\CDR project.bundle.scp.css
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.dll
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\refint\CDR project.dll
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.pdb
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\CDR project.genruntimeconfig.cache
+C:\Users\23164696\source\repos\CDR project\CDR project\obj\Debug\net6.0\ref\CDR project.dll

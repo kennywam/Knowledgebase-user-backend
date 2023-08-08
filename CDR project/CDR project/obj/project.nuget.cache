@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "NMkC6c72RCgxDTm3yAME23dKWq9hG8JxmTdciUX8YHAIzJFnjWUurKn0sg4YsYbpos22ww8RLGE215+zTEoVDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\23164696\\source\\repos\\CDR project\\CDR project\\CDR project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\23164696\\.nuget\\packages\\pdfsharpcore\\1.3.57\\pdfsharpcore.1.3.57.nupkg.sha512",
+    "C:\\Users\\23164696\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
+    "C:\\Users\\23164696\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta17\\sixlabors.fonts.1.0.0-beta17.nupkg.sha512",
+    "C:\\Users\\23164696\\.nuget\\packages\\sixlabors.imagesharp\\1.0.4\\sixlabors.imagesharp.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
