@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CDR_pdf.props" />
+</Project>

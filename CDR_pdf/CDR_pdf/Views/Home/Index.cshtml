@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">User CDR Data request portal</h1>
+    <form asp-controller="Home" asp-action="PDF" method="post">
+        <div>
+            <label for="PhoneNumber">Phone Number:</label>
+            <input type="tel" id="PhoneNumber" name="PhoneNumber" required>
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" required>
+        </div>
+        <div>
+            <label for="StatementPeriodFrom">Statement Period From:</label>
+            <input type="date" id="StatementPeriodFrom" name="StatementPeriodFrom" required>
+        </div>
+
+        <div>
+            <label for="StatementPeriodTo">Statement Period To:</label>
+            <input type="date" id="StatementPeriodTo" name="StatementPeriodTo" required>
+        </div>
+        
+        <div>
+            <button type="submit">Generate PDF</button>
+        </div>
+    </form>
+</div>
