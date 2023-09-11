@@ -1,4 +1,5 @@
-﻿@{
+﻿@model UserInputModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -12,6 +13,14 @@
         <div>
             <label for="Email">Email:</label>
             <input type="email" id="Email" name="Email" required>
+        </div> 
+        <div>
+            <label for="SelectedService">Select a service:</label>
+            <select id="SelectedService" name="SelectedService" required>
+                <option value="CallLogs">call Logs</option>
+                <option value="SMSLogs">SMS logs</option>
+                <option value="DailyDataCDRs">Daily Data CDRs</option>
+            </select>
         </div>
         <div>
             <label for="StatementPeriodFrom">Statement Period From:</label>
@@ -22,7 +31,9 @@
             <label for="StatementPeriodTo">Statement Period To:</label>
             <input type="date" id="StatementPeriodTo" name="StatementPeriodTo" required>
         </div>
-        
+
+       
+
         <div>
             <button type="submit">Generate PDF</button>
         </div>
