@@ -14,7 +14,7 @@ namespace knowledgebase.Data
         }
         public async Task<List<knowledgebase>> Get() => await _knowledgebase.Find(_ => true).ToListAsync();
 
-        public async Task<knowledgebase> Get(string id) => await _knowledgebase.Find(m => m.Id == id).FirstOrDefaultAsync();
+        public async Task<knowledgebase> Get(string id) => await _knowledgebase.Find(m => m.ProductId == id).FirstOrDefaultAsync();
      }
 }
     

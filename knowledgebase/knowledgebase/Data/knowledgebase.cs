@@ -3,15 +3,13 @@ using MongoDB.Bson;
 
 namespace knowledgebase.Data
 {
+    [BsonIgnoreExtraElements]
     public class knowledgebase
     {
   
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
-
-        [BsonElement("Product_id")]
-        public int ProductId { get; set; }
+        public string ProductId { get; set; }
 
         [BsonElement("Product_name")]
         public string ProductName { get; set; }
@@ -27,10 +25,16 @@ namespace knowledgebase.Data
 
         [BsonElement("infoDoc")]
         public List<InfoDoc> InfoDoc { get; set; }
+
+        
+
     }
 
     public class Faq
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string ProductId { get; set; }
         [BsonElement("faqlabel")]
         public string FaqLabel { get; set; }
 
@@ -40,6 +44,9 @@ namespace knowledgebase.Data
 
     public class Question
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string ProductId { get; set; }
         [BsonElement("question")]
         public string QuestionText { get; set; }
 
@@ -49,6 +56,9 @@ namespace knowledgebase.Data
 
     public class InfoText
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string ProductId { get; set; }
         [BsonElement("infoLabel")]
         public string InfoLabel { get; set; }
 
@@ -58,11 +68,16 @@ namespace knowledgebase.Data
 
     public class InfoDoc
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string ProductId { get; set; }
         [BsonElement("DocLabel")]
         public string DocLabel { get; set; }
 
-        [BsonElement("DocPath")]
+        [BsonElement("DocPath")]    
         public string DocPath { get; set; }
     }
+
+    
 
 }
