@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using PdfSharpCore.Drawing;
 using PdfSharpCore.Pdf.IO;
 using PdfSharpCore.Pdf;
@@ -38,5 +39,11 @@ public class PdfGenerationService
         {
             content.Replace(index, placeholderBytes.Length, replacementBytes);
         }
+=======
+﻿namespace CDR_project.Models.Services
+{
+    public class PdfGenerationService
+    {
+>>>>>>> ebadd27 (Initial commit)
     }
 }

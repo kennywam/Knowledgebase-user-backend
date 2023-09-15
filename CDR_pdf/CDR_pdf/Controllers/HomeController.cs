@@ -18,28 +18,20 @@ namespace CDR_pdf.Controllers
         public IActionResult Index()
         {
 
-            try
-            {
-                var CallLogs = _dbContext.CallLogs.ToList();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred while fetching CallLogs. {ex.Message}");
 
-                throw; 
-            }
+            var CallLogs = _dbContext.CallLogs.ToList();
             var SmsLogs = _dbContext.SmsLogs.ToList();
             var dailyDataCDRs = _dbContext.DailyDataCdrs.ToList();
 
             return View(new UserInputModel()
             {
-               // CallLogs = CallLogs,
+                CallLogs = CallLogs,
                 SmsLogs = SmsLogs,
                 dailyDataCDRs = dailyDataCDRs
             });
         }
-        [HttpPost]
 
+        [HttpPost]
         public IActionResult PDF(UserInputModel userInput)
         {
             using (MemoryStream ms = new MemoryStream())

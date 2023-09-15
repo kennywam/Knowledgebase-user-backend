@@ -7,8 +7,11 @@
     <RootNamespace>CDR_project</RootNamespace>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <PackageReference Include="PdfSharpCore" Version="1.3.57" />
   </ItemGroup>
 
+=======
+>>>>>>> ebadd27 (Initial commit)
 </Project>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿// PdfController.cs
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,3 +28,11 @@ public class PdfController : ControllerBase
         return File(pdfBytes, "application/pdf", "generated.pdf");
     }
 
+=======
+﻿namespace CDR_project.controllers
+{
+    public class PdfController
+    {
+    }
+}
+>>>>>>> ebadd27 (Initial commit)

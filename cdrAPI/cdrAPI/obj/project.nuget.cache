@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "luUOYP9hYXHfNg+jZq5FG5ezLshZ/w6LozCPSH4RLjDJys6mquHHx1f/IdvEsuNuWHVACiZ7Gv/XpTS3vh5+1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\23164696\\source\\repos\\cdrAPI\\cdrAPI\\cdrAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\23164696\\.nuget\\packages\\ibm.data.db2.core\\3.1.0.600\\ibm.data.db2.core.3.1.0.600.nupkg.sha512"
+  ],
+  "logs": []
+}
